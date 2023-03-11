@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylecheet" href="./CSS/#normalize.css"/>
+  <link rel="stylecheet" href="./CSS/#general.css"/>
+  <link rel="stylecheet" href="./CSS/#styles.css"/>
+    <title>
+      Form
+    </title>
+</head>
+<body>
+  <fieldset>
+    <div class="form-group">
+      <form method="post" action="#" autocomplete="off">
+        <h1>
+          Register
+        </h1>
+          <p>
+            Please fill in this form to create an account.
+          </p>
+          <label for="Full name:">
+            <b>
+              Full name
+            </b>
+          <label>
+            <input type="text" placeholder="Full name" name="full name" required>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="email">
+              <b>
+                Email
+              </b>
+            </label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="psw">
+              <b>
+                Password
+              </b>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="psw-repeat">
+              <b>
+                Repeat Password
+              </b>
+            </label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="lname">
+              <b>
+                Gender
+              </b>
+            </label>
+            <input type="radio" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">
+              Мan
+            </label>
+            <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">
+              Woman
+            </label>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="psw-repeat">
+              <b>
+                Age
+              </b>
+            </label>
+            <input type="number" min="1" max="100" step="1">
+            <br>
+            <br>
+          </div>
+          <div class="form-group">
+            <label for="lname">
+              <b>
+                Curses
+              </b>
+            </label>
+            <select name="curses">
+              <option value="front-end">Front-End</option>
+              <option value="back-end">Back-End</option>
+              <option value="project management">Project Management</option>
+              <option value="QA manual">QA Manual</option>
+            </select>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <label for="lname">
+              <b>
+                Address
+              </b>
+            </label>
+            <input type="text" placeholder="Address" name="country, region, city, village, 
+              street,house number" required>
+              <br/>
+            </div>
+            <div class="form-group">
+            <label for="lname"></label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">
+              I agree to the processing of data
+            </label>
+            <br/>
+            <br/>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="Сlear formbtn">
+              Сlear form
+            </button>
+            <button type="submit" class="registerbtn">
+              Register
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </body>
+  </html>
